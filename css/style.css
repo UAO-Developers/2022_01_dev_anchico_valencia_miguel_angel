@@ -1,0 +1,5 @@
+#content{
+    padding: 100px 20%;
+    display: grid;
+    grid-template-columns: [x0] 0.3fr [x1] 1fr;
+}
