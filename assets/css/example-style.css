@@ -1,0 +1,257 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303F40;
+}
+
+header {
+    background-color: #FD6001;
+    width: 100%;
+    height: 100px;
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: [x0]0.1fr [x1] 0.1fr [x2] 4fr [x3]0.5fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0px 8px;
+    width: 100%;
+    height: 100%;
+}
+
+header nav ul img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 3px solid #FFFFFF;
+    margin: 0px 28px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.logo {
+    width: 200px;
+    height: 55%;
+    background-color: #FFFFFF;
+}
+
+header nav ul li .fa-bars{
+    color: white;
+    transform: scale(1.7) translate(0, -35%);
+}
+
+.fa-angle-left {
+    color: white;
+    transform: scale(1.7);
+}
+
+#container-content {
+    width: 80%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.banner {
+    width: 100%;
+}
+
+.container-mini-logo{
+    width: 150px;
+    height: 150px;
+    background-color:#FFFFFF;
+
+    border-radius: 100%;
+    border: 3px solid #f8f8f8;
+
+    margin: 0 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.mini-logo {
+    width: 120px;
+    transform: translate(-2%, -5%);
+}
+
+#main {
+    display: flex;
+}
+
+#restaurant-info {
+    margin: 3%;
+    width: 94%;
+    position: relative;
+}
+
+#options-header ul{
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0px;
+}
+
+.fa-star{
+    color: #FD6001;
+}
+
+#options-header ul li p{
+    color: #FD6001;
+}
+
+#options-header ul li{
+    margin-right: 4px;
+}
+
+#options-header ul li p{
+    margin-left: 4px;
+    text-decoration: underline;
+}
+
+.star-selected{
+    color: #d1d1d1;
+}
+
+
+.status-icons{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: auto;
+    height: auto;
+}
+
+.status-icons i{
+    margin-left: 7px;
+    border: 1px solid rgb(206, 206, 206);
+    padding: 12px;
+    transform: scale(1.3);
+}
+
+.status-icons .fa-circle-info{
+    color: #094ebd;
+}
+
+.status-icons .fa-heart{
+    color: #FD6001;
+}
+
+#label-bars{
+    width: 100%;
+    height: auto;
+    background-color: #F9F5F2;
+    padding: 20px 0px;
+
+    margin-top: -40px;
+}
+
+#label-bars ul{
+    width: 94%;
+    margin: 0 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#label-bars ul label{
+    color: #303F40;
+    border-radius: 30px;
+    padding: 0.6vw 0.3vw;
+    font-size: 14px;
+}
+
+#label-bars ul li .selected{
+    color: white;
+    background-color: #FD6001;
+}
+
+#side-bar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    box-shadow: -3px 3px 2px rgba(189, 189, 189, 0.5);
+    position: relative;
+}
+
+#side-bar h2{
+    margin: 20px 0;
+}
+
+.fa-bag-shopping{
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+#side-bar p{
+    margin: 5px 20px;
+}
+
+#content {
+    width: 94%;
+    margin: 16px 3%;
+}
+
+#content-tittle{
+    width: 100%;
+    background-color: #F9F5F2;
+    padding: 16px 8px;
+}
+
+article {
+    width: 100%;
+    border: 2px solid #f1f1f1;
+    position: relative;
+    margin: 8px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.title{
+    display: inline-block;
+}
+
+.more-info{
+    color: #094ebd;
+    font-size: 12px;
+}
+
+article p {
+    color: gray;
+    font-size: 14px;
+}
+
+section article p span {
+    font-size: 20px;
+    color: #FD6001;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.fa-plus{
+    position: absolute;
+    right: -1;
+    top: -1;
+    color: #094ebd;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    padding: 20;
+}
+
+header hr{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-top: 6px;
+}
