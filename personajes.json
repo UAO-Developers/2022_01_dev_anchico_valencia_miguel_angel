@@ -1,0 +1,8 @@
+{
+    "Personajes":[
+            {"nombre": "Homero", "apellido": "Simpson", "nivel":5},
+            {"nombre": "Pepe", "apellido": "El grillo", "nivel":3},
+            {"nombre": "Bugs", "apellido": "Bunny", "nivel":4},
+            {"nombre": "James", "apellido": "Rodriguez", "nivel":1}
+    ]
+}

@@ -1,0 +1,40 @@
+#contenido img{
+    height:96%;
+    width:96%;
+    margin: 0;
+}
+
+.contenedor{
+    position:relative;
+    padding: 0;
+    height: 30vw;
+    overflow: hidden;
+}
+
+.nombre {
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    transition: all 0.4s;
+}
+
+#contenido p {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#contenido .nombre:hover {
+    opacity: 1;
+    background-color: rgba(17, 17, 17, 0.6);
+}
